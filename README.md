@@ -118,6 +118,8 @@ To get a local copy up and running follow these simple example steps.
 ## Usage
 
 Right order to do things:
+- Register
+- Login
 - Addfeed <name> <url>
 - Agg 1m0s
 - browse <amount of posts>
