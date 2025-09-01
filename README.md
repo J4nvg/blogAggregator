@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://github.com/J4nvg/blogAggregator/blob/main/img/thumb_creds_to_chatgpt.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/J4nvg/blogAggregator/blob/main/img/thumb_creds_to_chatgpt.png" alt="Logo" width="250" height="250">
   </a>
 
 <h3 align="center">Blog-Aggregator</h3>
@@ -33,7 +33,7 @@
     <br />
     Can be used fetch RSS feeds, and view latests posts in a CLI application.
     <br />
-    <a href="https://www.boot.dev/">Based on the boot.dev course</a>
+    <a href="https://www.boot.dev/courses/build-blog-aggregator-typescript">Based on the boot.dev course</a>
   </p>
 </div>
 
@@ -64,18 +64,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+Project allows for 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
-
-* [![Next][Next.js]][Next-url]
+[![Next][Next.js]][Next-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,33 +84,32 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 * npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* PostGresql
+
 
 ### Installation
+1. Setup a config file in your home directory `~/.gatorconfig.json`
+```json
+{
+  "db_url": "protocol://username:password@host:port/database?sslmode=disable",
+  "current_user_name": "username_goes_here"
+}
+```
+2. Register a user from project directory.
+  ```npm
+  npm run start register >name<
+  ```
+3. Log the user in.
+  ```npm
+  npm run start login >name<
+  ``` 
+  ```
+3. use the help command to list possible commands.
+  ```npm
+  npm run start help
+  ``` 
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +120,6 @@ This is an example of how to list things you need to use the software and how to
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
