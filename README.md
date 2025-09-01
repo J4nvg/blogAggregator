@@ -104,12 +104,11 @@ To get a local copy up and running follow these simple example steps.
   ```npm
   npm run start login >name<
   ``` 
-  ```
-3. use the help command to list possible commands.
+
+4. use the help command to list possible commands.
   ```npm
   npm run start help
   ``` 
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,9 +117,10 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-
+Right order to do things:
+- Addfeed <name> <url>
+- Agg 1m0s
+- browse <amount of posts>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
