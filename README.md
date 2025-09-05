@@ -87,6 +87,18 @@ To get a local copy up and running follow these simple example steps.
 * npm
 * PostGresql
 
+1. Install npm
+```sh
+npm install -g npm
+```
+
+2. Install postgres  
+```sh
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+sudo passwd postgres # Linux only
+```
+
 
 ### Installation
 1. Setup a config file in your home directory `~/.gatorconfig.json`
